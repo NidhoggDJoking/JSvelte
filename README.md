@@ -16,8 +16,11 @@
 
 #### 路由
 
-- Svelte 目前没有提供官方路由组件，这是社区中找到的以及它的风格模式
+- ##### Svelte 目前没有提供官方路由组件，这是社区中找到的以及它的风格模式
 
-`svelte-routing` -> `react-router-dom`
-`svelte-spa-router` -> `vue-router`
+1. [svelte-routing](https://github.com/EmilTholin/svelte-routing) -> `react-router-dom`
+2. [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) -> `vue-router`
+
+
+
 
