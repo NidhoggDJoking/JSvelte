@@ -28,3 +28,10 @@
 - 使用 `emotion` 如`React` 一样进行 `CSS-IN-JS` 的样式编写
 - Svelte 文件里`style` 直接写，文件结构与`Vue`一致
 
+- 全局样式策略
+```css
+/* 通过global.css设置全局样式变量 */
+:global(:root){
+   --header-color: purple
+}
+```
