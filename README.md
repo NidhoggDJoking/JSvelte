@@ -20,7 +20,8 @@
 - ##### Svelte 目前没有提供官方路由组件，这是社区中找到的以及它的风格模式
 
 1. [svelte-routing](https://github.com/EmilTholin/svelte-routing) -> `react-router-dom`
-2. [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) -> `vue-router`
+2. [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) -> `vue-router` 路由规则的配置
+3. [Routify](https://www.routify.dev) : 是约定式路由解决方案，无需配置路由规则，直接根据目录结构生成路由
 
 
 #### 样式
