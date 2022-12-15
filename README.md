@@ -23,5 +23,7 @@
 2. [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) -> `vue-router`
 
 
+#### 样式
 
+- 采用 `emotion` `CSS-IN-JS` 的模式
 
