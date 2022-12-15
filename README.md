@@ -25,5 +25,6 @@
 
 #### 样式
 
-- 采用 `emotion` `CSS-IN-JS` 的模式
+- 使用 `emotion` 如`React` 一样进行 `CSS-IN-JS` 的样式编写
+- Svelte 文件里`style` 直接写，文件结构与`Vue`一致
 
