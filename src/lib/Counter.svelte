@@ -1,5 +1,5 @@
 <script>
-  import { title, comicSans, box } from '../styles/index';
+  import { title, comicSans, box } from '@/styles/index';
   let count = 0
   const increment = () => {
     count += 1
