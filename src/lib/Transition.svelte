@@ -11,10 +11,10 @@
 		padding: 0.5em 0;
 		border-top: 1px solid #eee;
 	}
-  div:hover{
+  div:hover {
     font-weight: 500;
     cursor: pointer;
-    color:#0095ff;
+    color: #0095ff;
   }
   
 </style>

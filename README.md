@@ -2,7 +2,7 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsvelte)
 
-### Stackblitz
+### [Stackblitz](https://stackblitz.com)
 
 #### Stackblitz + Github 系列功能都还在测试阶段
 
@@ -13,7 +13,7 @@
 
 ---
 
-### Svelte
+### [Svelte](https://www.sveltejs.cn/)
 
 #### 路由
 
