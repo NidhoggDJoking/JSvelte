@@ -22,13 +22,10 @@ export const box = css`
   border-radius: 4px;
 `;
 
-export const link = css`
-  color: inherit;
-  font-weight: bold;
-  text-decoration: none;
-  border-bottom: 1px solid ${brand};
-  &:hover {
-    text-decoration: none;
-    background: ${brand};
-  }
+export const navlink = css`
+  font-size:16px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background: linear-gradient(to right, #00bcff, #00ff96,#fbff00,#ff7600);
 `;

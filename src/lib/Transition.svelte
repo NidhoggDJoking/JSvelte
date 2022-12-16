@@ -11,6 +11,12 @@
 		padding: 0.5em 0;
 		border-top: 1px solid #eee;
 	}
+  div:hover{
+    font-weight: 500;
+    cursor: pointer;
+    color:#0095ff;
+  }
+  
 </style>
 
 <label>
@@ -20,7 +26,6 @@
 
 <label>
 	<input type="range" bind:value={i} max=10>
-
 </label>
 
 {#if showItems}
