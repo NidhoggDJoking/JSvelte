@@ -4,6 +4,7 @@
 	let showItems = true;
 	let i = 5;
 	let items = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+  let color = '#0095ff';
 </script>
 
 <style>
