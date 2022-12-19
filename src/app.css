@@ -30,6 +30,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -46,6 +48,8 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 button {
