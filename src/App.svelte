@@ -4,6 +4,8 @@
   import Index from '@/lib/Index.svelte'
   import Animations from '@/lib/Animations.svelte'
   import Transition from '@/lib/Transition.svelte'
+  import Pannable from '@/lib/Pannable.svelte'
+
   import '@/styles/global.css'
   export let url = "";
 </script>
@@ -14,6 +16,7 @@
       <Link to="/">index</Link>
       <Link to="transition">transition</Link>
       <Link to="animations">animations</Link>
+      <Link to="pannable">pannable</Link>
     </nav>
     <div class="container">
       <Route path="/">
@@ -24,6 +27,9 @@
       </Route>
       <Route path="animations">
         <Animations/>
+      </Route>
+      <Route path="pannable">
+        <Pannable/>
       </Route>
     </div>
   </Router>
@@ -40,6 +46,6 @@ main{
   border: 0;
 }
 .container{
-  padding-top: 30px;
+  padding-top: 70px;
 }
 </style>
