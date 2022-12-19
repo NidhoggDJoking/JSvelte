@@ -152,4 +152,8 @@
 	label:hover button {
 		opacity: 1;
 	}
+	.left, .right {
+		display: flex;
+    flex-direction: column;
+	}
 </style>
