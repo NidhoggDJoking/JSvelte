@@ -15,7 +15,7 @@
       <Link to="transition">transition</Link>
       <Link to="animations">animations</Link>
     </nav>
-    <div>
+    <div class="container">
       <Route path="/">
         <Index />
       </Route>
@@ -38,5 +38,8 @@ main{
   padding: 0;
   margin: 0;
   border: 0;
+}
+.container{
+  padding-top: 30px;
 }
 </style>
