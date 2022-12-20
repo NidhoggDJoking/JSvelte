@@ -1,6 +1,7 @@
 <script>
   import svelteLogo from '@/assets/svelte.svg'
   import Counter from '@/lib/Counter.svelte'
+  let string = `<h1>Vite + Svelte</h1>`;
 </script>
 
   <div>
@@ -11,7 +12,8 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
+  
+  <div>{@html string}</div>
 
 
   <style>

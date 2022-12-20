@@ -14,9 +14,9 @@
   <Router url="{url}">
     <nav class={navPosition}>
       <Link to="/">index</Link>
-      <Link to="transition">transition</Link>
-      <Link to="animations">animations</Link>
-      <Link to="pannable">pannable</Link>
+      <Link to="/transition">transition</Link>
+      <Link to="/animations">animations</Link>
+      <Link to="/pannable">pannable</Link>
     </nav>
     <div class="container">
       <Route path="/">
