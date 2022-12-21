@@ -40,3 +40,24 @@
    --header-color: purple
 }
 ```
+
+#### Babel 升级
+
+`vite.config.js` 文件 `plugins` 里直接加
+
+```js
+plugins: [svelte(),
+   '@babel/plugin-proposal-optional-chaining',// 可选链
+   '@babel/plugin-proposal-nullish-coalescing-operator'//双问号
+],
+```
+
+```bash
+npm install --save-dev @babel/plugin-proposal-optional-chaining // 可选链
+npm install --save-dev @babel/plugin-proposal-nullish-coalescing-operator // 合并操作符
+npm install --save-dev @babel/plugin-proposal-logical-assignment-operators // 短路符
+npm install --save-dev @babel/plugin-proposal-private-methods // 私有属性关键词"#"
+npm install --save-dev @babel/plugin-proposal-partial-application // 函数科里化
+```
+
+[用法参照](https://nidhoggdjoking.gitee.io/#/js/future)

@@ -2,6 +2,9 @@
   import svelteLogo from '@/assets/svelte.svg'
   import Counter from '@/lib/Counter.svelte'
   let string = `<h1>Vite + Svelte</h1>`;
+  let _object = {}
+  var foo = _object.foo ?? "default"; // "default"
+  var res = _object?.name // 2
 </script>
 
   <div>
@@ -14,7 +17,8 @@
   </div>
   
   <div>{@html string}</div>
-
+  <!-- <div>{foo}</div> -->
+  <!-- <div>{res}</div> -->
 
   <style>
   .logo {
