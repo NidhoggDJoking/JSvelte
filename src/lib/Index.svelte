@@ -19,6 +19,7 @@
   <div>{@html string}</div>
   <!-- <div>{foo}</div> -->
   <!-- <div>{res}</div> -->
+  <div>{import.meta.env.VITE_SOME_KEY}</div>
 
   <style>
   .logo {
