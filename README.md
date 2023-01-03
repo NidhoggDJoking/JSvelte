@@ -1,4 +1,16 @@
-# JSvelte
+<h1 align="center">JSvelte</h1>
+
+<p align="center">
+  <a href="https://vitejs.cn/" target="_blank">
+      <img src="https://img.shields.io/badge/Vite-4.0.0-success">
+  </a>
+  <a href="https://www.sveltejs.cn" target="_blank">
+      <img src="https://img.shields.io/badge/Svelte-3.54.0-ff3e00">
+  </a>
+  <a href="https://developer.stackblitz.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Stackblitz-1.0-1374ef" >
+  </a>
+</p>
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsvelte)
 
