@@ -2,19 +2,20 @@
 
 <p align="center">
   <a href="https://vitejs.cn/" target="_blank">
-      <img src="https://img.shields.io/badge/Vite-4.0.0-success">
+      <img src="https://img.shields.io/badge/Vite-4.0.0-646CFF?logo=Vite">
   </a>
   <a href="https://www.sveltejs.cn" target="_blank">
-      <img src="https://img.shields.io/badge/Svelte-3.54.0-ff3e00">
+      <img src="https://img.shields.io/badge/Svelte-3.54.0-ff3e00?logo=Svelte">
   </a>
   <a href="https://developer.stackblitz.com/" target="_blank">
-      <img src="https://img.shields.io/badge/Stackblitz-1.0-1374ef" >
+      <img src="https://img.shields.io/badge/Stackblitz-dev_tool-1374ef?logo=StackBlitz" >
   </a>
 </p>
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsvelte)
 
 ### [Stackblitz](https://stackblitz.com)
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsvelte)
 
 #### Stackblitz + Github 系列功能都还在测试阶段
 
