@@ -9,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "build:test": "vite build --mode test",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:local": "vite preview --port 9527"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.18.9",
