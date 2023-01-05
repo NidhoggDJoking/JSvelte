@@ -25,7 +25,7 @@ export default defineConfig({
     devSourcemap: false, // 在开发过程中是否启用 sourcemap. 默认： false
   },
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'public', // 指定生成静态资源的存放路径. 默认： assets
     cssCodeSplit: true, // 启用/禁用 CSS 代码拆分。当启用时，在异步 chunk 中导入的 CSS 将内联到异步 chunk 本身，并在其被加载时插入。如果禁用，整个项目中的所有 CSS 将被提取到一个 CSS 文件中。
     sourcemap: true, // 如果为 true，将会创建一个独立的 source map 文件
