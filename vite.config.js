@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+import legacy from '@vitejs/plugin-legacy'
 import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte(),
+    // legacy({
+    //   targets: ['defaults', 'not IE 11','@babel/plugin-proposal-optional-chaining'],
+    // }),
     '@babel/plugin-proposal-optional-chaining',// 可选链
     '@babel/plugin-proposal-nullish-coalescing-operator'//双问号
   ],
