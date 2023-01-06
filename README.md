@@ -13,7 +13,7 @@
 </p>
 
 
-### [Stackblitz](https://stackblitz.com)
+## [Stackblitz](https://stackblitz.com)
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsvelte)
 
@@ -27,7 +27,7 @@
 
 ---
 
-### [Svelte](https://www.sveltejs.cn/)
+## [Svelte](https://www.sveltejs.cn/)
 
 #### 路由
 
@@ -79,7 +79,9 @@ npm install --save-dev @babel/plugin-proposal-partial-application // 函数科�
 
 [用法参照](https://nidhoggdjoking.gitee.io/#/js/future)
 
-#### Vite
+
+
+## [Vite](https://vitejs.cn/)
 
 | 选项 |  |
 | :----- | :---: |
