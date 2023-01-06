@@ -82,7 +82,7 @@ npm install --save-dev @babel/plugin-proposal-private-methods // 私有属性关
 npm install --save-dev @babel/plugin-proposal-partial-application // 函数科里化
 ```
 
-[用法参照](https://nidhoggdjoking.gitee.io/#/js/future)
+[拓展用法参照](https://nidhoggdjoking.gitee.io/#/js/future)
 
 
 
