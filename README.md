@@ -54,6 +54,10 @@
 }
 ```
 
+#### 预处理相关
+
+[svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
+
 #### Babel 升级
 
 `vite.config.js` 文件 `plugins` 里直接加
