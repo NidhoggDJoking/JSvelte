@@ -25,7 +25,6 @@
 4. Commit 跳过了 gitignore 的忽略
 5. 运行得先装依赖 `yarn install && yarn run dev`
 
----
 
 ## [Svelte](https://www.sveltejs.cn/)
 
@@ -56,7 +55,13 @@
 
 #### 预处理相关
 
-[svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
+- [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
+
+#### UI框架
+
+- [svelte-material-ui github 📌](https://github.com/hperrin/svelte-material-ui)
+
+- [sveltematerialui Docs 🚀](https://sveltematerialui.com/)
 
 #### Babel 升级
 
