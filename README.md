@@ -26,6 +26,11 @@
 5. 运行得先装依赖 `yarn install && yarn run dev`
 
 
+## [Github dev](https://github.com/github/dev)
+
+[Edit on VScode ⚡️](https://github.dev/NidhoggDJoking/JSvelte)
+
+
 ## [Svelte](https://www.sveltejs.cn/)
 
 #### 路由
