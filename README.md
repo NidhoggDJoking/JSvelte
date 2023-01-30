@@ -31,8 +31,10 @@
 
 [Edit on VScode ⚡️](https://github.dev/NidhoggDJoking/JSvelte)
 
-1. 在线`VScode`终端在Web编辑器中不可用。如需终端可采用上述`stackblitz` 工具或 `codespace`
+1. 在线[`VScode`](https://vscode.dev/)终端在Web编辑器中不可用。如需终端可采用上述`stackblitz` 工具或 `codespace`
 2. 登录`GitHub`账号的本地`VScode` 于 `Github dev` 共享用户配置
+3. 在线[`VScode`](https://vscode.dev/github/NidhoggDJoking/vitepress) 操作`GitHub`仓库项目 
+
 
 
 ## [Svelte](https://www.sveltejs.cn/)
