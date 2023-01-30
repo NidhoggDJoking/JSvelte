@@ -33,7 +33,8 @@
 
 1. 在线[`VScode`](https://vscode.dev/)终端在Web编辑器中不可用。如需终端可采用上述`stackblitz` 工具或 `codespace`
 2. 登录`GitHub`账号的本地`VScode` 于 `Github dev` 共享用户配置
-3. 在线[`VScode`](https://vscode.dev/github/NidhoggDJoking/vitepress) 操作`GitHub`仓库项目 
+3. 在线[`VScode`](https://vscode.dev/github/NidhoggDJoking/JSvelte) 操作`GitHub`仓库项目 
+4. [`codespace`](https://github.com/codespaces) 里的Web编辑器分配了运行空间可以使用终端
 
 
 
