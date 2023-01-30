@@ -24,11 +24,15 @@
 3. 什么是环境，什么是 node_modules
 4. Commit 跳过了 gitignore 的忽略
 5. 运行得先装依赖 `yarn install && yarn run dev`
+6. Stackblitz 有前端主流框架的初始化模板，不依赖于仓库快速进行研学
 
 
 ## [Github dev](https://github.com/github/dev)
 
 [Edit on VScode ⚡️](https://github.dev/NidhoggDJoking/JSvelte)
+
+1. 在线`VScode`终端在Web编辑器中不可用。如需终端可采用上述`stackblitz` 工具或 `codespace`
+2. 登录`GitHub`账号的本地`VScode` 于 `Github dev` 共享用户配置
 
 
 ## [Svelte](https://www.sveltejs.cn/)
