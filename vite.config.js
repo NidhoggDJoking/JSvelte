@@ -21,8 +21,19 @@ export default defineConfig({
       '@': path.resolve('./src'), // Vite路径别名配置
     },
   },
+  cacheDir: 'node_modules/.vite',// 默认vite缓存路径
+  clearScreen: true, // 控制台是否清屏，最好不要设置，设置会屏蔽掉一些关键终端信息
+  logLevel: 'info', // 控制台输出的级别，error|info|silent|warn 默认 info 那么所有的日志都会打印出来
+
   // 参考: https://cli.vuejs.org/zh/guide/css.html#%E5%90%91%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8-loader-%E4%BC%A0%E9%80%92%E9%80%89%E9%A1%B9
   css: {
+    // modules: {
+    //   localsConvention:'camelCaseOnly', // 模块化后的css类名命名规则，驼峰还是划线
+    //   scopeBehaviour:'local', // 配置当前模块行为是模块化还是全局化 'global' | 'local'
+    //   generateScopedName:'[name]_[local]_[hash:5]',
+    //   hashPrefix:'', // hash是根据文件名类名等生成的，这个前缀可以使生成的hash更加复杂独特
+    //   globalModulePaths:[] // 想要参加到css模块化的文件路径数组
+    // },
     // preprocessorOptions: {
     //   less: {
     //     additionalData: '@import "./src/styles/global.less";',
