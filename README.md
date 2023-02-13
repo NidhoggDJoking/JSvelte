@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/NidhoggDJoking/JSvelte" target="_blank">
+    <img width="150" src="https://cdn.jsdelivr.net/gh/nidhoggdjoking/CDN@2.4/img/ReLogo.png" alt="logo">
+  </a>
+</p>
+
 <h1 align="center">JSvelte</h1>
 
 <p align="center">
