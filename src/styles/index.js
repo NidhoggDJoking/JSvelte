@@ -1,7 +1,7 @@
 import { css } from '@emotion/css';
 
 const brand = '#74D900';
-const navHeight = '40px'
+const navHeight = '40px';
 
 export const title = css`
   color: ${brand};
@@ -35,11 +35,13 @@ export const navPosition = css`
   width: 100%;
   height: ${navHeight};
   line-height: ${navHeight};
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
-  top: 0px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  bottom: 0px;
   // margin-bottom: 15px;
   // padding-bottom: 15px;
   display:flex;
   justify-content: space-around;
   align-items: center;
+  background: #fff;
+  z-index: 1;
 `;
