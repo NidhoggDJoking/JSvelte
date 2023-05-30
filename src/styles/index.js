@@ -1,4 +1,4 @@
-import { css } from '@emotion/css';
+import { css } from '@emotion/css';  // https://emotion.sh/docs/introduction
 
 const brand = '#74D900';
 const navHeight = '40px';

@@ -19,9 +19,12 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve('./src'), // Vite路径别名配置
+      '^': path.resolve('./src/lib'),
+      '~': path.resolve('./src/assets'),
+      '#': path.resolve('./src/styles'),
     },
   },
-  cacheDir: 'node_modules/.vite',// 默认vite缓存路径
+  cacheDir: 'node_modules/.vite', // 默认vite缓存路径
   clearScreen: true, // 控制台是否清屏，最好不要设置，设置会屏蔽掉一些关键终端信息
   logLevel: 'info', // 控制台输出的级别，error|info|silent|warn 默认 info 那么所有的日志都会打印出来
 
