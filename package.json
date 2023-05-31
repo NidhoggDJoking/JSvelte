@@ -3,7 +3,7 @@
   "private": true,
   "description": "a case for svelte",
   "author": "Nidhogg·D·Joking",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "init": "yarn install && yarn run dev",
