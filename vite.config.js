@@ -3,7 +3,9 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 import legacy from '@vitejs/plugin-legacy';
 import path from 'path';
 
-// https://vitejs.dev/config/
+const BASE = `/${import.meta.env.VITE_BASEPATH}/`;
+
+// https://cn.vitejs.dev/config/
 export default defineConfig({
   plugins: [
     svelte(),
@@ -13,7 +15,7 @@ export default defineConfig({
     // '@babel/plugin-proposal-optional-chaining',// 可选链
     // '@babel/plugin-proposal-nullish-coalescing-operator'//双问号
   ],
-  base: '/JSvelte/',
+  base: BASE,
   // envPrefix: 'VITE_',// 以 envPrefix 开头的环境变量会通过 import.meta.env 暴露在你的客户端源码中。默认： VITE_
   envDir: 'root', // 用于加载 .env 文件的目录。可以是一个绝对路径，也可以是相对于项目根的路径。
   resolve: {
