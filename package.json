@@ -6,6 +6,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "init": "yarn install && yarn run dev",
     "dev": "vite",
     "build": "vite build",
     "build:test": "vite build --mode test",

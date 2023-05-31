@@ -1,5 +1,5 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { Router, Link, Route } from "svelte-routing"; // https://github.com/EmilTholin/svelte-routing#readme
   import { navlink, navPosition } from '@/styles/index';
   import Index from '@/lib/Index.svelte'
   import Animations from '@/lib/Animations.svelte'
@@ -12,7 +12,7 @@
 
 <main>
   <Router url="{url}">
-    <nav class={navPosition}>
+    <nav class={navPosition} basepath='/JSvelte'>
       <Link to="/">index</Link>
       <Link to="/transition">transition</Link>
       <Link to="/animations">animations</Link>
