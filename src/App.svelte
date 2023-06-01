@@ -12,7 +12,7 @@
 
 <main>
   <Router url="{url}">
-    <nav class={navPosition} basepath={import.meta.env.VITE_BASEPATH}>
+    <nav class={navPosition} basepath='/JSvelte'>
       <Link to="/">index</Link>
       <Link to="/transition">transition</Link>
       <Link to="/animations">animations</Link>
